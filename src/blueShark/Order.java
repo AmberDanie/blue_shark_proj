@@ -13,6 +13,4 @@ public interface Order {
     int removeAll(MenuItem item);
     MenuItem[] sortedItemsByCostDesc();
     int costTotal();
-    Customer getCustomer();
-    void setCustomer(Customer customer);
 }

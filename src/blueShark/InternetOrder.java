@@ -4,7 +4,6 @@ public class InternetOrder implements Order {
     private int size;
     private ListNode head;
     private ListNode tail;
-    private Customer customer;
 
     public InternetOrder() {
         this.size = 0;
@@ -221,15 +220,5 @@ public class InternetOrder implements Order {
         }
 
         return totalCost;
-    }
-
-    @Override
-    public Customer getCustomer() {
-        return this.customer;
-    }
-
-    @Override
-    public void setCustomer(Customer customer) {
-        this.customer = customer;
     }
 }
